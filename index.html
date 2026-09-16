@@ -245,17 +245,7 @@
   </script>
 </head>
 <body class="bg-[#131B4D] font-['Plus_Jakarta_Sans'] text-on-surface antialiased selection:bg-primary-container selection:text-on-primary pb-24 sm:pb-20">
-<!-- TOP URGENCY STRIP -->
 <header class="fixed top-0 left-0 right-0 z-50 bg-[#131B4D]/95 backdrop-blur-xl border-b border-surface-container-high shadow-2xl">
-<div class="bg-[#0E1642] px-4 py-1.5 flex items-start sm:items-center justify-center gap-2 text-center">
-<span class="relative flex h-2 w-2 shrink-0 mt-1 sm:mt-0">
-<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#EAB308] opacity-75"></span>
-<span class="relative inline-flex rounded-full h-2 w-2 bg-[#EAB308]"></span>
-</span>
-<span class="font-['Plus_Jakarta_Sans'] text-[11px] sm:text-xs uppercase font-bold tracking-widest text-[#F59E0B]">
-          Exclusive In-Person Business Diagnostic Session<span class="hidden sm:inline"> &middot; 18 Oct 2026, Mumbai</span>
-        </span>
-</div>
 <!-- MAIN NAVBAR -->
 <div class="max-w-[1200px] mx-auto px-4 sm:px-6 h-20 flex items-center justify-between gap-4">
 <div class="flex items-center gap-3">
@@ -277,9 +267,9 @@
 </div>
 </div>
 </header>
-<main class="w-full pt-28 bg-[#131B4D]">
+<main class="w-full pt-20 bg-[#131B4D]">
 <!-- HERO SECTION -->
-<section class="relative w-full overflow-hidden flex flex-col items-center justify-center text-center pt-24 pb-8">
+<section class="relative w-full overflow-hidden flex flex-col items-center justify-center text-center pt-10 pb-8">
 <div class="absolute inset-0 z-0">
 <video class="absolute inset-0 w-full h-full object-cover" autoplay muted loop playsinline poster="mumbai-hero-poster.jpg">
 <source src="mumbai-hero.mp4" type="video/mp4"/>
@@ -386,10 +376,7 @@
         </h2>
 </div>
 <div class="relative w-full aspect-video rounded-2xl overflow-hidden border border-[#EAB308]/30 shadow-2xl">
-<img alt="Mumbai" class="absolute inset-0 w-full h-full object-cover" src="mumbai-hero-poster.jpg"/>
-<div class="absolute inset-0 bg-gradient-to-t from-[#0B1340]/55 via-transparent to-[#0B1340]/25"></div>
-<h3 class="absolute inset-0 flex items-center justify-center font-['Plus_Jakarta_Sans'] uppercase font-extrabold text-white text-[17vw] sm:text-8xl lg:text-9xl tracking-tighter select-none" style="mix-blend-mode: overlay; letter-spacing: -0.03em;">MUMBAI</h3>
-<div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(60% 60% at 50% 50%, rgba(0,0,0,0.25), transparent 70%);"></div>
+<img alt="Mumbai" class="absolute inset-0 w-full h-full object-cover" src="mumbai-text-blend.jpg"/>
 </div>
 <div class="flex flex-col gap-5 w-full">
 <p class="font-['Plus_Jakarta_Sans'] text-base text-secondary leading-relaxed">
@@ -421,70 +408,106 @@
 <p class="font-['Plus_Jakarta_Sans'] text-sm text-secondary">Six real bottlenecks. Worked through with your own numbers, not a slide deck.</p>
 </div>
 <div class="relative">
-<div id="diagnose-slider" class="flex gap-5 overflow-x-auto snap-x snap-mandatory pb-4" style="scrollbar-width:none;-ms-overflow-style:none">
-<div class="snap-start shrink-0 w-[270px] sm:w-[300px] award-glow-card bg-[#131B4D] border border-surface-container-high rounded-2xl p-6 flex flex-col gap-3">
-<div class="icon-pulse-ring h-14 w-14 rounded-full bg-[#EAB308] flex items-center justify-center shadow-[0_0_22px_rgba(234,179,8,0.55)]"><span class="material-symbols-outlined text-[#1C1500] text-2xl">trending_up</span></div>
-<h3 class="font-['Plus_Jakarta_Sans'] text-lg font-bold text-white">Sales &amp; Revenue</h3>
+<div id="diagnose-slider" class="flex gap-5 overflow-x-auto snap-x snap-mandatory pb-4 items-stretch" style="scrollbar-width:none;-ms-overflow-style:none">
+<div class="snap-start shrink-0 w-[280px] sm:w-[320px] award-glow-card bg-[#131B4D] border border-surface-container-high rounded-2xl overflow-hidden flex flex-col">
+<div class="p-6 flex flex-col gap-1.5 text-center" style="background: linear-gradient(135deg,#EAB308,#CA8A04)">
+<span class="material-symbols-outlined text-[#1C1500] text-2xl">trending_up</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-bold uppercase tracking-widest text-[#1C1500]/80">Growth Engine</span>
+<span class="font-['Plus_Jakarta_Sans'] text-lg font-extrabold uppercase text-[#1C1500] leading-tight">Sales &amp; Revenue</span>
+</div>
+<div class="p-6 flex flex-col gap-3 flex-1">
 <p class="text-sm text-secondary">Diagnosing why sales and revenue growth has stalled.</p>
-<ul class="flex flex-col gap-1.5 text-xs text-secondary mt-1">
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Why revenue is stuck at the same level</li>
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Why sales conversions aren't improving</li>
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Why sales team performance is dropping</li>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-bold uppercase tracking-wider text-[#FBBF24]">We'll Cover:</span>
+<ul class="flex flex-col gap-2.5">
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#EAB308,#CA8A04)"><span class="material-symbols-outlined text-[#1C1500] text-sm">search</span></span>Why revenue is stuck at the same level</li>
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#EAB308,#CA8A04)"><span class="material-symbols-outlined text-[#1C1500] text-sm">trending_down</span></span>Why sales conversions aren't improving</li>
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#EAB308,#CA8A04)"><span class="material-symbols-outlined text-[#1C1500] text-sm">groups</span></span>Why sales team performance is dropping</li>
 </ul>
 </div>
-<div class="snap-start shrink-0 w-[270px] sm:w-[300px] award-glow-card bg-[#131B4D] border border-surface-container-high rounded-2xl p-6 flex flex-col gap-3">
-<div class="icon-pulse-ring h-14 w-14 rounded-full bg-[#EAB308] flex items-center justify-center shadow-[0_0_22px_rgba(234,179,8,0.55)]"><span class="material-symbols-outlined text-[#1C1500] text-2xl">groups</span></div>
-<h3 class="font-['Plus_Jakarta_Sans'] text-lg font-bold text-white">Team &amp; Accountability</h3>
+</div>
+<div class="snap-start shrink-0 w-[280px] sm:w-[320px] award-glow-card bg-[#131B4D] border border-surface-container-high rounded-2xl overflow-hidden flex flex-col">
+<div class="p-6 flex flex-col gap-1.5 text-center" style="background: linear-gradient(135deg,#3B82F6,#1D4ED8)">
+<span class="material-symbols-outlined text-[#1C1500] text-2xl">groups</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-bold uppercase tracking-widest text-[#1C1500]/80">People &amp; Ownership</span>
+<span class="font-['Plus_Jakarta_Sans'] text-lg font-extrabold uppercase text-[#1C1500] leading-tight">Team &amp; Accountability</span>
+</div>
+<div class="p-6 flex flex-col gap-3 flex-1">
 <p class="text-sm text-secondary">Build a team that owns outcomes without pushing.</p>
-<ul class="flex flex-col gap-1.5 text-xs text-secondary mt-1">
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Why the team waits for instructions</li>
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Getting the business out of founder-dependency</li>
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Ownership instead of babysitting tasks</li>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-bold uppercase tracking-wider text-[#FBBF24]">We'll Cover:</span>
+<ul class="flex flex-col gap-2.5">
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#3B82F6,#1D4ED8)"><span class="material-symbols-outlined text-[#1C1500] text-sm">hourglass_empty</span></span>Why the team waits for instructions</li>
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#3B82F6,#1D4ED8)"><span class="material-symbols-outlined text-[#1C1500] text-sm">person_remove</span></span>Getting the business out of founder-dependency</li>
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#3B82F6,#1D4ED8)"><span class="material-symbols-outlined text-[#1C1500] text-sm">task_alt</span></span>Ownership instead of babysitting tasks</li>
 </ul>
 </div>
-<div class="snap-start shrink-0 w-[270px] sm:w-[300px] award-glow-card bg-[#131B4D] border border-surface-container-high rounded-2xl p-6 flex flex-col gap-3">
-<div class="icon-pulse-ring h-14 w-14 rounded-full bg-[#EAB308] flex items-center justify-center shadow-[0_0_22px_rgba(234,179,8,0.55)]"><span class="material-symbols-outlined text-[#1C1500] text-2xl">account_balance_wallet</span></div>
-<h3 class="font-['Plus_Jakarta_Sans'] text-lg font-bold text-white">Finance &amp; Cash Flow</h3>
+</div>
+<div class="snap-start shrink-0 w-[280px] sm:w-[320px] award-glow-card bg-[#131B4D] border border-surface-container-high rounded-2xl overflow-hidden flex flex-col">
+<div class="p-6 flex flex-col gap-1.5 text-center" style="background: linear-gradient(135deg,#F97316,#C2410C)">
+<span class="material-symbols-outlined text-[#1C1500] text-2xl">account_balance_wallet</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-bold uppercase tracking-widest text-[#1C1500]/80">Where Profit Leaks</span>
+<span class="font-['Plus_Jakarta_Sans'] text-lg font-extrabold uppercase text-[#1C1500] leading-tight">Finance &amp; Cash Flow</span>
+</div>
+<div class="p-6 flex flex-col gap-3 flex-1">
 <p class="text-sm text-secondary">See exactly where profit is leaking, every month.</p>
-<ul class="flex flex-col gap-1.5 text-xs text-secondary mt-1">
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Clients who don't pay on time</li>
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Profits shrinking even as revenue grows</li>
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Getting to consistent, on-time collections</li>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-bold uppercase tracking-wider text-[#FBBF24]">We'll Cover:</span>
+<ul class="flex flex-col gap-2.5">
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#F97316,#C2410C)"><span class="material-symbols-outlined text-[#1C1500] text-sm">schedule</span></span>Clients who don't pay on time</li>
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#F97316,#C2410C)"><span class="material-symbols-outlined text-[#1C1500] text-sm">trending_down</span></span>Profits shrinking even as revenue grows</li>
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#F97316,#C2410C)"><span class="material-symbols-outlined text-[#1C1500] text-sm">payments</span></span>Getting to consistent, on-time collections</li>
 </ul>
 </div>
-<div class="snap-start shrink-0 w-[270px] sm:w-[300px] award-glow-card bg-[#131B4D] border border-surface-container-high rounded-2xl p-6 flex flex-col gap-3">
-<div class="icon-pulse-ring h-14 w-14 rounded-full bg-[#EAB308] flex items-center justify-center shadow-[0_0_22px_rgba(234,179,8,0.55)]"><span class="material-symbols-outlined text-[#1C1500] text-2xl">tune</span></div>
-<h3 class="font-['Plus_Jakarta_Sans'] text-lg font-bold text-white">Systems &amp; SOP</h3>
+</div>
+<div class="snap-start shrink-0 w-[280px] sm:w-[320px] award-glow-card bg-[#131B4D] border border-surface-container-high rounded-2xl overflow-hidden flex flex-col">
+<div class="p-6 flex flex-col gap-1.5 text-center" style="background: linear-gradient(135deg,#EAB308,#CA8A04)">
+<span class="material-symbols-outlined text-[#1C1500] text-2xl">tune</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-bold uppercase tracking-widest text-[#1C1500]/80">Operations</span>
+<span class="font-['Plus_Jakarta_Sans'] text-lg font-extrabold uppercase text-[#1C1500] leading-tight">Systems &amp; SOP</span>
+</div>
+<div class="p-6 flex flex-col gap-3 flex-1">
 <p class="text-sm text-secondary">Why you're involved in every small activity, and how to fix it.</p>
-<ul class="flex flex-col gap-1.5 text-xs text-secondary mt-1">
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Delegating work without efficiency dropping</li>
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Ending ad-hoc, firefighting-mode operations</li>
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Departments running on clear protocols</li>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-bold uppercase tracking-wider text-[#FBBF24]">We'll Cover:</span>
+<ul class="flex flex-col gap-2.5">
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#EAB308,#CA8A04)"><span class="material-symbols-outlined text-[#1C1500] text-sm">rule</span></span>Delegating work without efficiency dropping</li>
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#EAB308,#CA8A04)"><span class="material-symbols-outlined text-[#1C1500] text-sm">local_fire_department</span></span>Ending ad-hoc, firefighting-mode operations</li>
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#EAB308,#CA8A04)"><span class="material-symbols-outlined text-[#1C1500] text-sm">checklist</span></span>Departments running on clear protocols</li>
 </ul>
 </div>
-<div class="snap-start shrink-0 w-[270px] sm:w-[300px] award-glow-card bg-[#131B4D] border border-surface-container-high rounded-2xl p-6 flex flex-col gap-3">
-<div class="icon-pulse-ring h-14 w-14 rounded-full bg-[#EAB308] flex items-center justify-center shadow-[0_0_22px_rgba(234,179,8,0.55)]"><span class="material-symbols-outlined text-[#1C1500] text-2xl">campaign</span></div>
-<h3 class="font-['Plus_Jakarta_Sans'] text-lg font-bold text-white">Marketing &amp; Lead Gen</h3>
+</div>
+<div class="snap-start shrink-0 w-[280px] sm:w-[320px] award-glow-card bg-[#131B4D] border border-surface-container-high rounded-2xl overflow-hidden flex flex-col">
+<div class="p-6 flex flex-col gap-1.5 text-center" style="background: linear-gradient(135deg,#3B82F6,#1D4ED8)">
+<span class="material-symbols-outlined text-[#1C1500] text-2xl">campaign</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-bold uppercase tracking-widest text-[#1C1500]/80">Visibility</span>
+<span class="font-['Plus_Jakarta_Sans'] text-lg font-extrabold uppercase text-[#1C1500] leading-tight">Marketing &amp; Lead Gen</span>
+</div>
+<div class="p-6 flex flex-col gap-3 flex-1">
 <p class="text-sm text-secondary">Reduce dependency on word-of-mouth for new business.</p>
-<ul class="flex flex-col gap-1.5 text-xs text-secondary mt-1">
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Why new customers aren't coming in</li>
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Why the brand isn't becoming visible</li>
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>A system for consistent leads, not luck</li>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-bold uppercase tracking-wider text-[#FBBF24]">We'll Cover:</span>
+<ul class="flex flex-col gap-2.5">
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#3B82F6,#1D4ED8)"><span class="material-symbols-outlined text-[#1C1500] text-sm">person_search</span></span>Why new customers aren't coming in</li>
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#3B82F6,#1D4ED8)"><span class="material-symbols-outlined text-[#1C1500] text-sm">visibility_off</span></span>Why the brand isn't becoming visible</li>
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#3B82F6,#1D4ED8)"><span class="material-symbols-outlined text-[#1C1500] text-sm">auto_awesome</span></span>A system for consistent leads, not luck</li>
 </ul>
 </div>
-<div class="snap-start shrink-0 w-[270px] sm:w-[300px] award-glow-card bg-[#131B4D] border border-surface-container-high rounded-2xl p-6 flex flex-col gap-3">
-<div class="icon-pulse-ring h-14 w-14 rounded-full bg-[#EAB308] flex items-center justify-center shadow-[0_0_22px_rgba(234,179,8,0.55)]"><span class="material-symbols-outlined text-[#1C1500] text-2xl">person_alert</span></div>
-<h3 class="font-['Plus_Jakarta_Sans'] text-lg font-bold text-white">Business Owner's Involvement</h3>
+</div>
+<div class="snap-start shrink-0 w-[280px] sm:w-[320px] award-glow-card bg-[#131B4D] border border-surface-container-high rounded-2xl overflow-hidden flex flex-col">
+<div class="p-6 flex flex-col gap-1.5 text-center" style="background: linear-gradient(135deg,#F97316,#C2410C)">
+<span class="material-symbols-outlined text-[#1C1500] text-2xl">person_alert</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-bold uppercase tracking-widest text-[#1C1500]/80">The Bottleneck</span>
+<span class="font-['Plus_Jakarta_Sans'] text-lg font-extrabold uppercase text-[#1C1500] leading-tight">Owner's Involvement</span>
+</div>
+<div class="p-6 flex flex-col gap-3 flex-1">
 <p class="text-sm text-secondary">Why you're the bottleneck for every decision, and how to step back.</p>
-<ul class="flex flex-col gap-1.5 text-xs text-secondary mt-1">
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>What only you should be doing, versus what you're still doing</li>
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Why the business can't run a single day without you</li>
-<li class="flex items-start gap-2"><span class="text-[#FBBF24] shrink-0">&#8599;</span>Building a business that runs without you in the room</li>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-bold uppercase tracking-wider text-[#FBBF24]">We'll Cover:</span>
+<ul class="flex flex-col gap-2.5">
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#F97316,#C2410C)"><span class="material-symbols-outlined text-[#1C1500] text-sm">rule_folder</span></span>What only you should be doing, versus what you're still doing</li>
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#F97316,#C2410C)"><span class="material-symbols-outlined text-[#1C1500] text-sm">block</span></span>Why the business can't run a single day without you</li>
+<li class="flex items-center gap-2.5 text-xs text-on-surface"><span class="h-6 w-6 rounded-md flex items-center justify-center shrink-0" style="background: linear-gradient(135deg,#F97316,#C2410C)"><span class="material-symbols-outlined text-[#1C1500] text-sm">meeting_room</span></span>Building a business that runs without you in the room</li>
 </ul>
 </div>
 </div>
-<button onclick="document.getElementById('diagnose-slider').scrollBy({left:-300,behavior:'smooth'})" class="hidden sm:flex absolute -left-4 top-[calc(50%-16px)] -translate-y-1/2 w-10 h-10 rounded-full bg-[#EAB308] text-[#1C1500] items-center justify-center shadow-xl hover:bg-[#B45309] transition-colors" aria-label="Previous"><span class="material-symbols-outlined">chevron_left</span></button>
-<button onclick="document.getElementById('diagnose-slider').scrollBy({left:300,behavior:'smooth'})" class="hidden sm:flex absolute -right-4 top-[calc(50%-16px)] -translate-y-1/2 w-10 h-10 rounded-full bg-[#EAB308] text-[#1C1500] items-center justify-center shadow-xl hover:bg-[#B45309] transition-colors" aria-label="Next"><span class="material-symbols-outlined">chevron_right</span></button>
+</div>
+<button onclick="document.getElementById('diagnose-slider').scrollBy({left:-320,behavior:'smooth'})" class="hidden sm:flex absolute -left-4 top-[calc(50%-16px)] -translate-y-1/2 w-10 h-10 rounded-full bg-[#EAB308] text-[#1C1500] items-center justify-center shadow-xl hover:bg-[#B45309] transition-colors" aria-label="Previous"><span class="material-symbols-outlined">chevron_left</span></button>
+<button onclick="document.getElementById('diagnose-slider').scrollBy({left:320,behavior:'smooth'})" class="hidden sm:flex absolute -right-4 top-[calc(50%-16px)] -translate-y-1/2 w-10 h-10 rounded-full bg-[#EAB308] text-[#1C1500] items-center justify-center shadow-xl hover:bg-[#B45309] transition-colors" aria-label="Next"><span class="material-symbols-outlined">chevron_right</span></button>
 </div>
 </div>
 </section>
